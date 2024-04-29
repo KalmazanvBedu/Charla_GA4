@@ -661,12 +661,16 @@
     }
 
     .textoConocenos{
-        font-size: .7rem;
+        font-size: .8rem;
         width: 95%;
         /* border: solid 3px blue; */
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .listatres li{
+        font-size: .8rem;
     }
 
     .contenedorContenidoSeccionTres{
@@ -720,13 +724,28 @@
     .contenedorFormulario{
          /* border: solid 2px red;  */
          height: 100%;
+         width: 83%;
     }
 
     .contenedorRedes{
         height: 100%;
-        width: 10%;
+        width: 17%;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-color: #9188FF;
+    }
+
+    .iconoRed{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: solid 2px red;  */
+    }
+
+    .iconoRed i{
+        /* border: solid 2px blue; */
     }
 
     .cajaFormulario{
