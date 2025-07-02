@@ -159,7 +159,7 @@
 }
 
 .contVentNivUnoTextos{
-    width: 70%;
+    width: 50%;
     height: 100%;
     /* border: solid 5px red; */
     flex-direction: column;
@@ -188,7 +188,29 @@
     padding: 10px;
 }
 
-.botonSeccionUno{
+.contVentNivUnoBotones{
+    width: 20%;
+    height: 100%;
+    /* border: solid 5px red; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton_mas_informacion{
+    background-color: #9188FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.boton_mas_informacion_blanco{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button[class="botonSeccionUno"]{
     background-color: #ffffff;
     /* opacity: .7; */
     color: #000000;
@@ -199,6 +221,11 @@
     font-weight: initial;
     paint-order:unset;
     /* border: solid 3px #000000; */
+}
+
+.botonSeccionUno{
+    background-color: blue;
+    color: #ffffff;
 }
 
 .contenedorMarcas {
@@ -474,10 +501,10 @@
 }
 
 .cajaFormulario{
-    height: 95%;
-    width: 50%;
+    height: 90%;
+    width: 60%;
     border-radius: 20px;
-    background-color: #000000;
+    background-color: #9188FF;
     opacity: .92;
     padding: 40px;
     /* border: solid 5px green; */
@@ -752,7 +779,7 @@
         height: 100%;
         width: 100%;
         border-radius: 20px;
-        background-color: #000000;
+        background-color: #9188FF;
         opacity: .92;
         padding: 40px;
     }
